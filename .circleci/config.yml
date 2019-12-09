@@ -11,6 +11,6 @@
         - run:
             name: curl test with invalid host name
             command: curl www.abcdedasbc.com
-#        - run:
-#          name: curl test with 404 not found response
-#          command: curl https://circleci.com/apiapiapi
+        - run:
+            name: curl test with 404 not found response
+            command: curl https://circleci.com/apiapiapi
