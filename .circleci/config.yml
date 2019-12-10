@@ -10,7 +10,7 @@
             command: echo "hello world" # run the `echo` command
         - run:
             name: curl test with 404 not found response
-            command: curl https://circleci.com/apiapiapi
+            command: curl --fail https://circleci.com/apiapiapi
         - run:
             name: curl test with invalid host name
             command: curl www.abcdedasbc.com
